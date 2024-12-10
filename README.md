@@ -19,5 +19,5 @@
 
 ## Assesments
 
-- [Nov 21,2024](assessments/20241121)
-- [Dec 05,2024](assessments/20241205)
+- [Nov 21,2024](assesssments/20241121)
+- [Dec 05,2024](assesssments/20241205)
