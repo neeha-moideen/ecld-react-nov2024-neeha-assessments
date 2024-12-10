@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #c3fae8;
+}
+
+.email {
+  background-color: white;
+  padding: 40px 70px;
+  /* box-shadow: 0 4px 8px 0 ; */
+  margin-top: 100px;
+  padding-top: 55px;
+}
+h3 {
+  font-size: 32px;
+  padding-bottom: 17px;
+}
+
+input {
+  padding: 9px 25px;
+  font-size: 15px;
+}
+button {
+  position: relative;
+  border: none;
+  color: white;
+  background-color: #38d9a9;
+  padding: 11px 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2fa085;
+}
+
+.message {
+  padding-top: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  color: rgb(59, 57, 57);
+}
+
+button:hover + .message {
+  visibility: visible;
+  opacity: 1;
+}

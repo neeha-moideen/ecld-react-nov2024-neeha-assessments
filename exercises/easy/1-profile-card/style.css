@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #d6d6e4;
+  margin-top: 100px;
+}
+
+.main {
+  line-height: 1.5;
+  padding-top: 30px;
+  margin: 30px;
+  padding: 20px;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+img {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn1 button {
+  background-color: #9a9abd;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.btn {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+button:hover {
+  background-color: #b8b8d1;
+  /* color: black; */
+}
+.name {
+  padding-top: 7px;
+  font-size: 19px;
+}
+.job {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.bio {
+  font-size: 15px;
+}

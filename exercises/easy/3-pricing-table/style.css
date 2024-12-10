@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+main {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 70px;
+}
+
+.tab1,
+.tab2 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 350px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.tab1:hover,
+.tab2:hover {
+  transform: translateY(-5px);
+}
+
+.tab1 h2,
+.tab2 h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+
+  padding: 15px;
+}
+
+.tab1 h2 {
+  background-color: #9e89bd;
+}
+
+.tab2 h2 {
+  background-color: #493a60;
+}
+
+.tab1 span,
+.tab2 span {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tab1 span {
+  color: #9e89bd;
+}
+.tab2 span {
+  color: #493a60;
+}
+
+ul {
+  margin-bottom: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+ul li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 17px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 80px;
+  margin-bottom: 9px;
+}
+
+.tab1 button {
+  background-color: #9e89bd;
+}
+.tab2 button {
+  background-color: #493a60;
+}
+
+.tab1 button:hover {
+  background-color: #baabd0;
+}
+
+.tab2 button:hover {
+  background-color: #624e80;
+}

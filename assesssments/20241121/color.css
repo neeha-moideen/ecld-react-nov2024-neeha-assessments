@@ -1,0 +1,101 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  /* background-image: url(windows-MYomVPpR5FU-unsplash.jpg); */
+}
+
+nav {
+  display: grid;
+}
+
+.headd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.logo {
+  padding-left: 60px;
+  color: #ffa500;
+
+  font-size: 26px;
+}
+
+.menuu {
+  padding-right: 18px;
+}
+
+.menuu button {
+  background-color: rgb(211, 202, 202);
+
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  /*  */
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(224, 214, 196);
+  margin: 20px;
+  height: 100px;
+}
+.hell {
+  height: 50px;
+  width: 20px;
+  border: 1px solid white;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.hero {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffedcc;
+}
+.hero h1 {
+  font-size: 70px;
+  padding-left: 100px;
+}
+.hero p {
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.hell img {
+  height: 90px;
+  width: 100px;
+  margin: 10px;
+}
+.side {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.side- {
+  height: 40px;
+  background-color: #ffe4b3;
+}

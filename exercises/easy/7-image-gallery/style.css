@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 24px;
+}
+
+img {
+  height: 290px;
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  padding: 23px 10px;
+}
+@media (max-width: 540px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  img {
+    height: 200px;
+    width: 220px;
+  }
+}

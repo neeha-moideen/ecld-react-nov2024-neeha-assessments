@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #4c83ff, #d9a7c7);
+}
+
+.form {
+  padding: 40px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 9px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #4c83ff;
+  box-shadow: 0 0 8px rgba(76, 131, 255, 0.4);
+  outline: none;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.check {
+  color: #555;
+  font-size: 14px;
+}
+
+.pwd {
+  font-size: 14px;
+  color: #4c83ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.pwd:hover {
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4c83ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a6cd1;
+}
