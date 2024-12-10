@@ -1,6 +1,6 @@
 # Neeha Training Repository
 
-## A Training Repository that hosts exercises done and assesments conducted
+## A Training Repository that hosts exercises done and assessments conducted
 
 ## Exercises
 
@@ -17,7 +17,7 @@
 - exercises/easy/9-newsletter - [Solution](exercises/easy/9-newsletter)
 - exercises/easy/10-footer-section - [Solution](exercises/easy/10-footer-section)
 
-## Assesments
+## Assessments
 
 - [Nov 21,2024](assesssments/20241121)
 - [Dec 05,2024](assesssments/20241205)
